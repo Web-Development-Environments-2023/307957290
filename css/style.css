@@ -307,12 +307,19 @@ footer{
     width:100%;
     margin-bottom:5px;
   }
-  /* .board {
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
     position: absolute;
     top: 4.3vh;
     left: 10vw;
     cursor: pointer;
-  } */
+  } 
+
+  #newsletter e{
+    float: left;
+  }
+
+
   
   /* .board img {
     width: 35.3vw;

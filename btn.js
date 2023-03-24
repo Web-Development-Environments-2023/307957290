@@ -8,3 +8,12 @@ likeBtn.addEventListener("click", function() {
   return likeCount.textContent = counter;
 });
 
+Ebtn = document.getElementById("#e");
+// likeCount = document.querySelector("Massage");
+var input = document.getElementById.getItem('.Massage');
+
+Ebtn.addEventListener("click", function() {
+  Ebtn.innerHTML = input+="😀";
+  // localStorage.setItem("Count", counter)
+  return likeCount.Ebtn;
+});

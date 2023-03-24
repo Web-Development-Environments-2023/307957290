@@ -4,8 +4,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="Will see">
-<meta name="keywords" content="I got no idea">
 <meta name="author" content="Danielle Aspir">
 <link rel="stylesheet" href="./css/style.css">
 <title> Shulamit Aspir </title>
@@ -55,8 +53,8 @@
  <aside id="side">
      <div class="darks">
        <h3>Send Us A Message</h3>
-       <form class="quote" action="sendmail.php" method="post"></form>
-       <!-- <form class="quote" action="mailto:aspirdanielle@gmail.com" method="post" enctype="text/plain" > -->
+       <!-- <form class="quote" action="sendmail.php" method="post"></form> -->
+       <form class="quote" action="mailto:aspirdanielle@gmail.com" method="post" enctype="text/plain" >
          <div>
            <label>Name</label><br>
            <input type="text" name="Name" required>
@@ -68,9 +66,17 @@
          <div>
           <label>Message</label><br>
           <input type="Message" name="Message">
+          <button type="button" id="emoji" on click=addE()>😀</button>
+          <button type="button" id="emoji" on click=addE()>😊</button>
+          <button type="button" id="emoji" on click=addE()>❤️</button>
+          <button type="button" id="emoji" on click=addE()>🔥</button>
+          <!-- <input id="emoji">&#x1F354 -->
         </div>
         <button class="button_1" type="submit">Send</button>
-     </form>
+       </form>
+    
+    
+
      </div>
    </aside>
  </div>
