@@ -6,8 +6,3 @@ https://web-development-environments-2023.github.io/307957290/
 The web icon(lipstick-icon.png-tab of the web) taken from UX Wing https://uxwing.com/ 
 The code for youtube video embeded in the background taken from an article "https://alvarotrigo.com/blog/how-to-create-a-youtube-video-background-with-css/"
 
-3 html distribution:
-1.index.html: home, youtube video
-2. about.html-> about me, qrcode, Q&A
-3. more.html: contact, photos
-like heart button exist in all html pages.
