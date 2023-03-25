@@ -154,7 +154,11 @@ aside#sidebar{
   direction: rtl;
   background-color: #cccccc;
   padding: 15px;
-  margin-top: 35px;
+  margin-top: 35px
+
+}
+.dark#p{
+  text-align: justify;
 }
   
 .darks{
@@ -255,11 +259,11 @@ background:#2A3038;
 font-size: 20px;
 }
 
-#newsletter input[type="email"]{
+/* #newsletter input[type="email"]{
 margin-top: 20px;
 width:250px;
 height: 20px;
-}
+} */
 #newsletter form{
 float:right;
 margin-top:-70px;
@@ -284,7 +288,8 @@ footer{
   #newsletter form,
   #boxes .box,
   article#main-col,
-  aside#sidebar{
+
+aside#sidebar{
     float:none;
     text-align:center;
     width:100%;
@@ -315,11 +320,16 @@ footer{
     cursor: pointer;
   } 
 
-  #newsletter e{
+  #newsletter#button#emoji {
+    background: none;
     float: left;
   }
 
-
+  #emoji {
+    background: none;
+    float: right;
+    margin-right: 7.3px;
+  }
   
   /* .board img {
     width: 35.3vw;
